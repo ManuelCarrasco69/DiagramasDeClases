@@ -1,0 +1,110 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36" version="29.6.4">
+  <diagram name="Página-1" id="84xpLBt_LhtIQaCd7ABq">
+    <mxGraphModel dx="1501" dy="902" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Fi357UKQgtfxuU_DYOOZ-12" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=35.55555555555556;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="AreaMetropolitana" vertex="1">
+          <mxGeometry height="161.55555555555554" width="200" x="190" y="790" as="geometry" />
+        </mxCell>
+        <mxCell id="Fi357UKQgtfxuU_DYOOZ-13" parent="Fi357UKQgtfxuU_DYOOZ-12" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="-String nombre" vertex="1">
+          <mxGeometry height="36" width="200" y="35.55555555555556" as="geometry" />
+        </mxCell>
+        <mxCell id="Fi357UKQgtfxuU_DYOOZ-14" parent="Fi357UKQgtfxuU_DYOOZ-12" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="-String estado" vertex="1">
+          <mxGeometry height="36" width="200" y="71.55555555555556" as="geometry" />
+        </mxCell>
+        <mxCell id="Fi357UKQgtfxuU_DYOOZ-15" parent="Fi357UKQgtfxuU_DYOOZ-12" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="-String pais" vertex="1">
+          <mxGeometry height="36" width="200" y="107.55555555555556" as="geometry" />
+        </mxCell>
+        <mxCell id="Fi357UKQgtfxuU_DYOOZ-16" parent="Fi357UKQgtfxuU_DYOOZ-12" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1">
+          <mxGeometry height="18" width="200" y="143.55555555555554" as="geometry" />
+        </mxCell>
+        <mxCell id="Fi357UKQgtfxuU_DYOOZ-17" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30.11764705882353;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Hotel" vertex="1">
+          <mxGeometry height="255.11764705882354" width="197" x="314" y="1032" as="geometry" />
+        </mxCell>
+        <mxCell id="Fi357UKQgtfxuU_DYOOZ-18" parent="Fi357UKQgtfxuU_DYOOZ-17" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="-String nombre" vertex="1">
+          <mxGeometry height="30" width="197" y="30.11764705882353" as="geometry" />
+        </mxCell>
+        <mxCell id="Fi357UKQgtfxuU_DYOOZ-19" parent="Fi357UKQgtfxuU_DYOOZ-17" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="-String direccion" vertex="1">
+          <mxGeometry height="30" width="197" y="60.11764705882353" as="geometry" />
+        </mxCell>
+        <mxCell id="Fi357UKQgtfxuU_DYOOZ-20" parent="Fi357UKQgtfxuU_DYOOZ-17" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="-int numHabitaciones" vertex="1">
+          <mxGeometry height="30" width="197" y="90.11764705882354" as="geometry" />
+        </mxCell>
+        <mxCell id="Fi357UKQgtfxuU_DYOOZ-21" parent="Fi357UKQgtfxuU_DYOOZ-17" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="-String numTelefono" vertex="1">
+          <mxGeometry height="30" width="197" y="120.11764705882354" as="geometry" />
+        </mxCell>
+        <mxCell id="Fi357UKQgtfxuU_DYOOZ-22" parent="Fi357UKQgtfxuU_DYOOZ-17" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="-int numEstrellas" vertex="1">
+          <mxGeometry height="30" width="197" y="150.11764705882354" as="geometry" />
+        </mxCell>
+        <mxCell id="Fi357UKQgtfxuU_DYOOZ-23" parent="Fi357UKQgtfxuU_DYOOZ-17" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="-double precioSimple" vertex="1">
+          <mxGeometry height="30" width="197" y="180.11764705882354" as="geometry" />
+        </mxCell>
+        <mxCell id="Fi357UKQgtfxuU_DYOOZ-24" parent="Fi357UKQgtfxuU_DYOOZ-17" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="-double precioDoble" vertex="1">
+          <mxGeometry height="30" width="197" y="210.11764705882354" as="geometry" />
+        </mxCell>
+        <mxCell id="Fi357UKQgtfxuU_DYOOZ-25" parent="Fi357UKQgtfxuU_DYOOZ-17" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1">
+          <mxGeometry height="15" width="197" y="240.11764705882354" as="geometry" />
+        </mxCell>
+        <mxCell id="Fi357UKQgtfxuU_DYOOZ-26" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=38.857142857142854;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="CadenaHoteles" vertex="1">
+          <mxGeometry height="135.85714285714286" width="189" x="440" y="802" as="geometry" />
+        </mxCell>
+        <mxCell id="Fi357UKQgtfxuU_DYOOZ-27" parent="Fi357UKQgtfxuU_DYOOZ-26" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="-String nombre" vertex="1">
+          <mxGeometry height="39" width="189" y="38.857142857142854" as="geometry" />
+        </mxCell>
+        <mxCell id="Fi357UKQgtfxuU_DYOOZ-28" parent="Fi357UKQgtfxuU_DYOOZ-26" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="-String director" vertex="1">
+          <mxGeometry height="39" width="189" y="77.85714285714286" as="geometry" />
+        </mxCell>
+        <mxCell id="Fi357UKQgtfxuU_DYOOZ-29" parent="Fi357UKQgtfxuU_DYOOZ-26" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1">
+          <mxGeometry height="19" width="189" y="116.85714285714286" as="geometry" />
+        </mxCell>
+        <mxCell id="Fi357UKQgtfxuU_DYOOZ-30" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=44.8;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="TarjetaCredito" vertex="1">
+          <mxGeometry height="111.8" width="185" x="320" y="1370" as="geometry" />
+        </mxCell>
+        <mxCell id="Fi357UKQgtfxuU_DYOOZ-31" parent="Fi357UKQgtfxuU_DYOOZ-30" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="-String nombre" vertex="1">
+          <mxGeometry height="45" width="185" y="44.8" as="geometry" />
+        </mxCell>
+        <mxCell id="Fi357UKQgtfxuU_DYOOZ-32" parent="Fi357UKQgtfxuU_DYOOZ-30" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1">
+          <mxGeometry height="22" width="185" y="89.8" as="geometry" />
+        </mxCell>
+        <mxCell id="Fi357UKQgtfxuU_DYOOZ-33" edge="1" parent="1" source="Fi357UKQgtfxuU_DYOOZ-12" style="curved=1;startArrow=diamondThin;startSize=14;startFill=1;endArrow=none;exitX=0.5;exitY=1;entryX=0.01;entryY=0;rounded=0;" target="Fi357UKQgtfxuU_DYOOZ-17" value="contiene">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="290" y="995" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fi357UKQgtfxuU_DYOOZ-34" parent="Fi357UKQgtfxuU_DYOOZ-33" style="edgeLabel;resizable=0;labelBackgroundColor=none;fontSize=12;align=right;verticalAlign=top;" value="1" vertex="1">
+          <mxGeometry relative="1" x="-1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fi357UKQgtfxuU_DYOOZ-35" parent="Fi357UKQgtfxuU_DYOOZ-33" style="edgeLabel;resizable=0;labelBackgroundColor=none;fontSize=12;align=left;verticalAlign=bottom;" value="*" vertex="1">
+          <mxGeometry relative="1" x="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fi357UKQgtfxuU_DYOOZ-36" edge="1" parent="1" source="Fi357UKQgtfxuU_DYOOZ-26" style="curved=1;startArrow=diamondThin;startSize=14;startFill=0;endArrow=none;exitX=0.5;exitY=1;entryX=0.98;entryY=0;rounded=0;" target="Fi357UKQgtfxuU_DYOOZ-17" value="agrupa">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="535" y="995" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fi357UKQgtfxuU_DYOOZ-37" parent="Fi357UKQgtfxuU_DYOOZ-36" style="edgeLabel;resizable=0;labelBackgroundColor=none;fontSize=12;align=right;verticalAlign=top;" value="1" vertex="1">
+          <mxGeometry relative="1" x="-1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fi357UKQgtfxuU_DYOOZ-38" parent="Fi357UKQgtfxuU_DYOOZ-36" style="edgeLabel;resizable=0;labelBackgroundColor=none;fontSize=12;align=left;verticalAlign=bottom;" value="*" vertex="1">
+          <mxGeometry relative="1" x="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fi357UKQgtfxuU_DYOOZ-39" edge="1" parent="1" source="Fi357UKQgtfxuU_DYOOZ-17" style="curved=1;startArrow=none;endArrow=open;endSize=12;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="Fi357UKQgtfxuU_DYOOZ-30" value="acepta">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fi357UKQgtfxuU_DYOOZ-40" parent="Fi357UKQgtfxuU_DYOOZ-39" style="edgeLabel;resizable=0;labelBackgroundColor=none;fontSize=12;align=right;verticalAlign=top;" value="*" vertex="1">
+          <mxGeometry relative="1" x="-1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fi357UKQgtfxuU_DYOOZ-41" parent="Fi357UKQgtfxuU_DYOOZ-39" style="edgeLabel;resizable=0;labelBackgroundColor=none;fontSize=12;align=left;verticalAlign=bottom;" value="*" vertex="1">
+          <mxGeometry relative="1" x="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
