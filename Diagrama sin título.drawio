@@ -1,0 +1,28 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="pF6pBso1BYD1I23fQydn">
+    <mxGraphModel dx="975" dy="591" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="kOY9KddtWRu58h-9BXwk-1" parent="1" style="shape=swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" value="Cliente|cod_cliente (PK) &#xa;&#xa;dni &#xa;nombre &#xa;direccion &#xa;telefono" vertex="1">
+          <mxGeometry height="110" width="160" x="20" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="kOY9KddtWRu58h-9BXwk-2" parent="1" style="shape=swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" value="Reserva|id_reserva (PK) &#xa;&#xa;fecha_inicio &#xa;fecha_fin &#xa;precio_total" vertex="1">
+          <mxGeometry height="94" width="160" x="300" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="kOY9KddtWRu58h-9BXwk-3" parent="1" style="shape=swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" value="Coche|matricula (PK) &#xa;&#xa;modelo &#xa;color &#xa;marca" vertex="1">
+          <mxGeometry height="94" width="160" x="580" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="kOY9KddtWRu58h-9BXwk-4" parent="1" style="shape=swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" value="Reserva_Coche|precio_alquiler &#xa;&#xa;litros_gasolina &#xa;entregado" vertex="1">
+          <mxGeometry height="80" width="240" x="380" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="kOY9KddtWRu58h-9BXwk-5" edge="1" parent="1" source="kOY9KddtWRu58h-9BXwk-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" target="kOY9KddtWRu58h-9BXwk-2" value="realiza&#xa;1      1..*">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kOY9KddtWRu58h-9BXwk-6" edge="1" parent="1" source="kOY9KddtWRu58h-9BXwk-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" target="kOY9KddtWRu58h-9BXwk-3" value="involucra&#xa;* *">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
